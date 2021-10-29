@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".view.ui.RegisterActivity">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,45 +16,51 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:orientation="vertical"
+            android:gravity="center"
             >
+
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/editTxtUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:hint="User name"
-                android:layout_marginTop="15dp"
-                android:padding="10dp"
                 android:imeOptions="actionNext"
+                android:maxLines="1"
 
-                />
+                android:padding="10dp" />
+
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:hint="Email"
-                android:layout_marginTop="15dp"
-                android:padding="10dp"
                 android:imeOptions="actionNext"
-                />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/editTextPass"
-                android:hint="Password"
-                android:layout_marginTop="15dp"
-                android:padding="10dp"
-                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:padding="10dp" />
 
-                />
             <EditText
+                android:id="@+id/editTextPass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/editTxtPhone"
-                android:hint="Phone"
                 android:layout_marginTop="15dp"
-                android:padding="10dp"
+                android:hint="Password"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editTxtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="Phone"
                 android:imeOptions="actionDone"
-                />
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="10dp" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,6 +70,15 @@
                 android:layout_marginLeft="45dp"
                 android:text="Register"
                 />
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:visibility="gone"
+                />
         </LinearLayout>
+
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Auth-Project-Full-version-.iml" filepath="$PROJECT_DIR$/.idea/modules/Auth-Project-Full-version-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Auth_Project_(Full_version).iml" filepath="$PROJECT_DIR$/.idea/modules/Auth_Project_(Full_version).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Auth_Project_(Full_version).app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Auth_Project_(Full_version).app.iml" />
     </modules>
   </component>
 </project>

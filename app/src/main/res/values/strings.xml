@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Auth Project (Full version)</string>
+    <string name="reset_pass_inst">Enter the email address associated with your account,
+    we will send you a link to reset your password.</string>
+    <string name="facebook_app_id">407472711035581</string>
+    <string name="fb_login_protocol_scheme">fb407472711035581</string>
+
 </resources>
